@@ -1,0 +1,50 @@
+section{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+ }
+ .box{
+     background-color: rgb(212, 211, 211);
+     padding: 5px;
+     margin: 100px 0;
+     width: 200px;
+     height: 180px;
+ }
+ 
+ .box1{
+     overflow: visible;
+ }
+ .box2{
+     overflow: hidden;
+ }
+ .box3{
+     overflow: scroll;
+ }
+ .box4{
+     overflow: auto;
+ }
+
+ .box5{
+     /* overflow-y: scroll; */
+     overflow-x: scroll;
+
+     /* overflow-x: hidden;
+     overflow-y: hidden; */
+ }
+
+ .box6{
+     background-color: #fff;
+     border: 1px solid;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+
+ .ellipsis{
+     width: 150px;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
